@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #52503b;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: #fff;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+
+.btn-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 42px;
+    border: 7px solid #fff;
+    border-radius: 6%;
+    background-color: #fff;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.intro-img{
+    width: 100%;
+}
