@@ -3,3 +3,469 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    background-color: #52503b;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: #fff;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.btn-book-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 42px;
+    border: 7px solid #fff;
+    border-radius: 6%;
+    background-color: #fff;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+
+.introducing{
+    height: 100vh;
+    background: url(./kartinka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    display: block;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.description{
+    display: flex;
+    background-color: #FAF8F0;
+    width: 100%;
+    height: 410px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-book{
+    color: #FAF8F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 42px;
+    border: 7px solid #52503b;
+    border-radius: 6%;
+    background-color: #52503b;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.first-desc{
+    display: block;
+    color: black;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    width: 350px;
+}
+
+.second-desc{
+    display: block;
+    color: black;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    width: 350px;
+}
+
+.baner{
+    background-color: #fff;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.text{
+    color: #52503b;
+    font-size: 80px;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.f-pic{
+    width: 100%;
+}
+
+.appartament-desc{
+    display: flex;
+    background-color: #FAF8F0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.title-f{
+    display: block;
+    color: #52503b;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.appartament-img{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+} 
+
+.appartament-img h2,h3{
+    margin-top: 8px;
+}
+
+
+
+.bed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+}
+
+.bedroom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+}
+
+.bathroom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+}
+
+.perfect-escape{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    height: 720px;
+}
+
+.perfect-escape-text{
+    padding-left: 220px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: #52503B;
+
+}
+
+.perfect-escape-desc{
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfect-escape-desc-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.desc{
+    display: flex;
+    padding-left: 4px;
+    align-items: center;
+}
+
+.desc-txt{
+    color: #333333;
+    margin-left: 8px;
+}
+
+.perfect-escape-desc-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.Past-guests{
+    background-color: #FAF8F0;
+    display: block;
+    justify-content: center;
+}
+
+.slider-container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0  auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.slider-wrapper{
+    width: 400px;
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.introducing-s{
+    height: 100vh;
+    background: url(./ROOM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.come-together{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 366px;
+}
+
+.desc-txt-title{
+    font-size: 14px;
+    color: #52503B;
+}
+
+.desc-txt-description{
+    font-size: 14px;
+    color: #52503B;
+}
+
+.come-together-desc-f{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+}
+
+.come-together-desc-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.main-txt{
+    font-size: 32px;
+}
+
+.finaly-book{
+    display: block;
+    background-color: #FAF8F0;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-f-f{
+    display: block;
+    color: #52503b;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.btns{
+    display:flex;
+    background-color: #FAF8F0;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px ;
+    padding-bottom: 70px;
+    
+}
+
+
+.contact-btn{
+    color: #52503b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 42px;
+    border: 4px solid #52503b;
+    border-radius: 6%;
+    background-color: #FAF8F0;
+    font-family: monospace;
+    font-size: 18px;
+    margin-right: 25px;
+    margin-top: 12px;
+}
+
+.footer{
+    display: flex;
+    background-color: #52503B;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 608px;
+}
+
+.footer-f{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-navigation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav-link-f{
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.social-icons{
+    color: #fff;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfect-escape-text-f{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.subscribe-block{
+    border: 1px solid  #E5E7EB;
+    background-color: #E5E7EB;
+    display: inline-flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 52px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.subscribe-block-txt{
+    background-color: #E5E7EB;
+    border: none;
+    width: 560px;
+    outline: none;
+    font-size: 18px;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-block-btn{
+    border: none;
+    width: 61px;
+    height: 30px;
+    top: 11px;
+    left: 508px;
+    border-radius: 10px;
+    background-color: #52503B;
+    padding: 4px;
+    color: #fff;
+}
+
+.subscribe-block-btn:active{
+    background-color: blue;
+}
+
+.subscribe-img{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.footer-end{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo{
+    display: flex;
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+}
+
+.final-txt{
+    color: #fff;
+    padding-top: 30px;
+}
+
+.final-txt-s{
+    color: #fff;
+    padding-top: 20px;
+}
